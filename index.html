@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>trillo &mdash; Your all-in-one booking app</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img class='logo' src="./img/logo.png" alt="">
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search Hotels">
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use xlink:href="/img/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                </form>
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="/img/sprite.svg#icon-bookmark"></use>
+                        </svg>
+                        <span class="user-nav__notification">7</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="/img/sprite.svg#icon-chat"></use>
+                        </svg>
+                        <span class="user-nav__notification">13</span>
+                    </div>
+                    <div class="user-nav__user">
+                        <img src="img/user.jpg" alt="User Photo" class="user-nav__user-photo">
+                        <span class="user-nav__user-name">Krishna</span>
+                    </div>
+                </nav>
+                
+            </header>
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="/img/sprite.svg#icon-home"></use>
+                                </svg>
+                                <span>HOTEL</span>
+                            </a>
+                        </li>
+                
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="/img/sprite.svg#icon-aircraft-take-off"></use>
+                                </svg>
+                                <span>FLIGHT</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="/img/sprite.svg#icon-key"></use>
+                                </svg>
+                                <span>CAR RENTAL</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="/img/sprite.svg#icon-map"></use>
+                                </svg>
+                                <span>TOURS</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="legal">
+                        &copy; 2021 by Krishna
+                    </div>
+                </nav>
+                <main class="hotel-view">
+                    <!-- Gallery -->
+                    <div class="gallery">
+                        <figure class="gallery__image">
+                            <img src="img/hotel-1.jpg" alt="" class="gallery__image--photo">
+                        </figure>
+                        <figure class="gallery__image">
+                            <img src="img/hotel-2.jpg" alt="" class="gallery__image--photo">
+                        </figure>
+                        <figure class="gallery__image">
+                            <img src="img/hotel-3.jpg" alt="" class="gallery__image--photo">
+                        </figure>
+                    </div>
+
+                    <div class="vertical-line">
+                        <h1 class="vertical-line__text">
+                            HOTEL LAS PALMAS
+                        </h1>
+                        <div class="vertical-line__star">
+                            <svg class="vertical-line__icon">
+                                <use xlink:href="/img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="vertical-line__icon">
+                                <use xlink:href="/img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="vertical-line__icon">
+                                <use xlink:href="/img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="vertical-line__icon">
+                                <use xlink:href="/img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="vertical-line__icon">
+                                <use xlink:href="/img/sprite.svg#icon-star"></use>
+                            </svg>
+                        </div>
+                        <div class="vertical-line__location">
+                            <svg class="vertical-line__icon">
+                                <use xlink:href="/img/sprite.svg#icon-location-pin"></use>
+                            </svg>
+                            <button class="vertical-line__button">Albuferia,Portugal</button>
+                        </div>
+                        <div class="vertical-line__ratings">
+                            <span class="vertical-line__rating">8.6</span>
+                            <span class="vertical-line__votes">429 VOTES</span>
+                        </div>
+                    </div>
+
+                    <div class="details">
+                        <div class="description">
+                            <p class="description__paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+                            </p>
+                            <p class="description__paragraph">
+                                Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+                            </p>
+                            <ul class="description__feature">
+                                <li class="description__feature--list">CLOSE TO THE BEACH</li>
+                                <li class="description__feature--list">BREAKFAST INCLUDED</li>
+                                <li class="description__feature--list">FREE AIRPOST SHUTTLE</li>
+                                <li class="description__feature--list">FREE WIFI IN ALL ROOM</li>
+                                <li class="description__feature--list">AIR CONDITION AND HEATER</li>
+                                <li class="description__feature--list">PETS ALLOWED</li>
+                                <li class="description__feature--list">ALL LANGUAGE ALLOWED</li>
+                                <li class="description__feature--list">PERFECT FOR FAMILIES</li>
+                            </ul>
+
+                            <div class="description__recommend">
+                                <p class="description__recommend--text">Lucky and 3 others recommed this hotel.</p>
+                                <div class="description__recommend--photo">
+                                    <img class="description__recommend--photo--img" src="./../img/user-3.jpg" alt="">
+                                    <img class="description__recommend--photo--img" src="./../img/user-4.jpg" alt="">
+                                    <img class="description__recommend--photo--img" src="./../img/user-5.jpg" alt="">
+                                    <img class="description__recommend--photo--img" src="./../img/user-6.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <div class="review-card">
+                                <p class="review-card__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex. </p>
+                                <div class="review-card__info">
+                                    <img src=".//img/user-1.jpg" class="review-card__info--photo"/>
+                                    <div class="review-card__info--names">
+                                        <span class="review-card__info--name">NICK SMITH</span>
+                                        <span class="review-card__info--date">Feb 23rd,2020</span>
+                                    </div>
+                                    <p class="review-card__info--rating">7.8</p>
+                                </div>
+                            </div>
+
+                            <div class="review-card">
+                                <p class="review-card__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi. </p>
+                                <div class="review-card__info">
+                                    <img src=".//img/user-2.jpg" class="review-card__info--photo"/>
+                                    <div class="review-card__info--names">
+                                        <span class="review-card__info--name">MARY THOMAS</span>
+                                        <span class="review-card__info--date">Feb 23rd,2020</span>
+                                    </div>
+                                    <p class="review-card__info--rating">9.3</p>
+                                </div>
+                            </div>
+                            
+                            <button class="review-btn__inline">Show all &rarr;</button>
+                        </div>
+                    </div>
+
+                    <div class="cta">
+                        <h2 class="cta__book-now">GOOD NEWS! WE HAVE 4 ROOMS FOR YOUR SELECTED DATES</h2>
+                        <button class="btn">
+                            <span class="btn-current">BOOK NOW</span>
+                            <span class="btn-other">ONLY 4 ROOMS LEFT</span>
+                        </button>
+                    </div>
+                </main>
+
+
+            </div>
+        </div>
+    </body>
+</html>
